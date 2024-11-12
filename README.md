@@ -27,4 +27,5 @@ Once active, your cursor will change to a crosshair. Now wherever you click over
 
 # Requirements
 Requires the awesome apiundo by mottosso: https://github.com/mottosso/apiundo/tree/master - Copyright (c) 2024, Marcus Ottosson
-And note that my initial DraggerContext class was inspired / modified from Morgan Loomis' found here: https://github.com/TinyPHX/MayaPythonTools/blob/master/ml_utilities.py
+
+Note that my initial DraggerContext class was inspired / modified from Morgan Loomis' found here: https://github.com/TinyPHX/MayaPythonTools/blob/master/ml_utilities.py
