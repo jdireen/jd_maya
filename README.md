@@ -26,4 +26,5 @@ tool.setTool()
 Once active, your cursor will change to a crosshair. Now wherever you click over a mesh object, a joint will be placed halfway between the front to the back from the viewports camera view. If you hold control while clicking, the new joint will be parented to the previously created joint. After placing a joint, you can middle-mouse-drag over anywhere in the viewport to adjust the depth, from front to back of the initial placement of the joint.
 
 # Requirements
-Requires the awesome apiundo by mottosso: https://github.com/mottosso/apiundo/tree/master
+Requires the awesome apiundo by mottosso: https://github.com/mottosso/apiundo/tree/master - Copyright (c) 2024, Marcus Ottosson
+And note that my initial DraggerContext class was inspired / modified from Morgan Loomis' found here: https://github.com/TinyPHX/MayaPythonTools/blob/master/ml_utilities.py
