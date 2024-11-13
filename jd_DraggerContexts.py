@@ -391,7 +391,6 @@ class SlideVertexWeightsTool(DraggerContext):
             self.closestJointMap[result] = jnt
         
         # if joints near enough, popup choice dialog for user selection
-        test = [x for x in self.closestJointMap.keys() if x > 0.99]
         closeJointsKeys = [x for x in self.closestJointMap.keys() 
                            if self.closestValue - x < self.nearInfThreshold]
         if len(closeJointsKeys) > 1:
