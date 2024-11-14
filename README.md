@@ -11,7 +11,7 @@ import jd_DraggerContexts
 tool = jd_DraggerContexts.SlideVertexWeightsTool( multiplier=0.01, minValue=0.0, maxValue=1.0, incriment=0.01, nearInfThreshold=0.0005)
 tool.setTool()
 ```
-Your cursor will change to a crosshair. Then click-and-drag on the joint you which to slide the weights too. If multiple joints are near, a dialog will pop-up requesting a selection.
+Your cursor will change to a crosshair. Then click-and-drag on the joint you want to slide the weights too. If multiple joints are near, a dialog will pop-up requesting a selection.
 
 ## PlungeJointTool
 Quickly place new joints in the center of a mesh volume.
